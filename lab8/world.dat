@@ -1,0 +1,112 @@
+1
+You are in a small town. There isn't much to do here other than hang out at the local grocery store. You decide to go on a bear hunt! You're going to catch a   big one.
+start
+notend
+d
+2
+You are just outside of a small town. A trail leads to the north.
+notstart
+notend
+d
+3
+You are on a trail. A small town can be seen to the south off in the distance,  while a dark forest can be seen to the north.
+notstart
+notend
+d
+4
+You are in a clearing at the entrance to a dense, dark forest. A narrow path    to the north leads into the woods. A trail to the south leads back to town.
+notstart
+notend
+d
+5
+You are standing just inside of a dark forest. You can hear birds calling from  all around you. A narrow path runs from the south to the east.
+notstart
+notend
+-
+d
+6
+You are deeper inside the forest. A path runs from east to west. There appears  to be a narrow animal trail leading off to the north.
+notstart
+notend
+d
+7
+You are on a narrow trail made by some kind of animal. The trail leads from the south to the west.
+notstart
+notend
+-
+-
+s
+d
+8
+You are on a narrow trail made by some kind of animal. The trail leads from the east to the west.
+notstart
+notend
+-
+s
+-
+d
+9
+The forest seems to be much darker here. You just noticed that you can no longerhear any birds calling. What looks like a cave looms off to the north.
+notstart
+notend
+d
+10
+You are standing at the entrance of a dark, damp cave to the north. Do you dare go inside?
+notstart
+notend
+d
+11
+You are in a dark, damp cave. You can barely see two feet in front of you. The  cave exit is to the south. The cave leads to the east.
+notstart
+notend
+-
+d
+12
+You bump into something big and furry. A giant bear lets out a terrible roar!
+notstart
+end
+-
+-
+-
+s
+s
+-
+-
+s
+-
+s
+-
+-
+d
+13
+You have come across a small cabin in the woods. There is smoke coming from the chimney. What kind of person could be living here?
+notstart
+notend
+-
+-
+-
+s
+-
+s
+s
+-
+-
+s
+-
+d
+14
+You are walking across a grassy field. You can see a trail off to the west.     There is a small fountain here.
+notstart
+notend
+-
+-
+-
+s
+s
+-
+-
+s
+-
+-
+-
+-
