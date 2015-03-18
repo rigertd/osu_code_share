@@ -1,0 +1,257 @@
+##ITEMS##
+1
+##ITEMNAMES##
+iron key
+a key
+iron key
+key
+rusty iron key
+rusty key
+small key
+the key
+##ENDITEMNAMES##
+A small, rusty key lies on the floor.
+1
+1
+2
+##ITEMNAMES##
+chest
+a chest
+chest
+large chest
+the chest
+treasure
+treasure chest
+##ENDITEMNAMES##
+A large chest filled with treasure is in the middle of the room.
+10
+90
+3
+##ITEMNAMES##
+crowbar
+a crowbar
+crow bar
+crowbar
+iron crowbar
+the crowbar
+##ENDITEMNAMES##
+A sturdy crowbar made of iron is on the floor.
+3
+10
+4
+##ITEMNAMES##
+garlic
+clove
+clove of garlic
+garlic
+the garlic
+##ENDITEMNAMES##
+A tiny clove of garlic is on the floor.
+1
+1
+5
+##ITEMNAMES##
+torch
+a torch
+new torch
+the torch
+the unused torch
+torch
+unlit torch
+unused torch
+##ENDITEMNAMES##
+An unlit torch is resting against the wall.
+3
+5
+##ENDITEMS##
+##ROOMS##
+basic
+1
+##ROOMDESCRIPTION##
+You are in a small, stone room that is dimly lit by torches.
+The only exit is a small doorway to the north.
+##ENDROOMDESCRIPTION##
+1 2 5 
+switch
+2
+1
+0
+##ROOMDESCRIPTION##
+You are in an east-west hallway with a small door to the south. There is an
+ornate stone carving with a small hole in it on the north wall.
+##ENDROOMDESCRIPTION##
+##ROOMALTDESCRIPTION##
+You are in an east-west hallway with a small door to the south. There is an
+ornate stone carving with a small hole in it on the north wall.
+##ENDROOMALTDESCRIPTION##
+
+basic
+3
+##ROOMDESCRIPTION##
+You are in a corner of the hallway that surrounds the inner chamber of the
+temple. The hall runs to the west and to the south.
+##ENDROOMDESCRIPTION##
+
+basic
+4
+##ROOMDESCRIPTION##
+You are in a corner of the hallway that surrounds the inner chamber of the
+temple. The hall runs to the east and south.
+##ENDROOMDESCRIPTION##
+
+basic
+5
+##ROOMDESCRIPTION##
+You are in a north-south hallway beside the inner chamber of the temple.
+##ENDROOMDESCRIPTION##
+
+condition
+6
+5
+0
+0
+1
+0
+0
+##ROOMDESCRIPTION##
+You are in a north-south hallway beside the inner chamber of the temple. You
+can barely make out a small crawlspace to the east in the dim torchlight.
+##ENDROOMDESCRIPTION##
+##ROOMALTDESCRIPTION##
+You are in a north-south hallway beside the inner chamber of the temple. The
+torch is burnt out, making it hard to see your surroundings.
+##ENDROOMALTDESCRIPTION##
+
+basic
+7
+##ROOMDESCRIPTION##
+You are in a tiny hidden room of the temple. You wonder what this was place was
+used for back when people lived here.
+##ENDROOMDESCRIPTION##
+4 
+basic
+8
+##ROOMDESCRIPTION##
+You are in a corner of the hallway that surrounds the inner chamber of the
+temple. The hall runs to the west and to the north.
+##ENDROOMDESCRIPTION##
+
+basic
+9
+##ROOMDESCRIPTION##
+You are in an east-west hallway at the foot of a stone stairway leading north.
+You can feel a cool draft coming from the stairway.
+##ENDROOMDESCRIPTION##
+
+basic
+10
+##ROOMDESCRIPTION##
+You are in a corner of the hallway that surrounds the inner chamber of the
+temple. The hall runs to the east and to the north.
+##ENDROOMDESCRIPTION##
+
+condition
+11
+4
+0
+1
+0
+0
+0
+##ROOMDESCRIPTION##
+That garlic did the trick! The vampire ran away squeeling and the stairway exit
+to the north is clear. You can also go back down the stairs to the south.
+##ENDROOMDESCRIPTION##
+##ROOMALTDESCRIPTION##
+As you walk up the stairs, you hear something that sounds like a bat's wings
+fluttering. Suddenly, a vampire drops down right in front of you. He is
+blocking the stairway exit to the north. You can still go back down the stairs
+to the south.
+##ENDROOMALTDESCRIPTION##
+
+basic
+12
+##ROOMDESCRIPTION##
+You made it to the top of the stairs. It should be a straight shot from here to
+the exit to the north. The stairs lead back to the south.
+##ENDROOMDESCRIPTION##
+
+condition
+13
+0
+0
+1
+0
+0
+0
+##ROOMDESCRIPTION##
+You are standing in the entrance of the temple. A huge portcullis to the north
+is open. You could also continue deeper into the temple to the south.
+##ENDROOMDESCRIPTION##
+##ROOMALTDESCRIPTION##
+You are standing in the entrance of the temple, but the huge portcullis to the
+north is closed! There does not appear to be any way to open it. You can go
+deeper into the temple to the south.
+##ENDROOMALTDESCRIPTION##
+
+basic
+14
+##ROOMDESCRIPTION##
+You are outside of an ancient temple. You might not have been able to take the
+treasure, but at least you made it out alive! You can re-enter the temple to
+the south.
+##ENDROOMDESCRIPTION##
+
+##ENDROOMS##
+##ROOMEXITS##
+1 2 0 0 0
+2 0 3 1 4
+3 0 0 6 2
+4 0 2 5 0
+5 4 0 10 0
+6 3 7 8 0
+7 0 0 0 6
+8 6 0 0 9
+9 11 8 0 10
+10 5 9 0 0
+11 12 0 9 0
+12 13 0 11 0
+13 14 0 12 0
+14 0 0 13 0
+##ENDROOMEXITS##
+##ROOMTARGETS##
+1 0
+2 13
+3 0
+4 0
+5 0
+6 0
+7 0
+8 0
+9 0
+10 0
+11 0
+12 0
+13 0
+14 0
+##ENDROOMTARGETS##
+##INTRO##
+You are deep in the inner chamber of an ancient temple. You managed to get past
+countless traps and creatures on your way down, but it took way longer than you
+expected. The entrance of the temple locks itself shut in only 10 more minutes.
+Hurry up and get out while you still can!
+
+Type 'n' to go north, 'e' to go east, 's' to go south, and 'w' to go west.
+Type 'inv' to see what's in your inventory.
+Type 'take' followed by the item name to pick up an item,
+and 'drop' followed by the item name or number to drop an item.
+You can type 'help' at any time for a list of available commands.
+##ENDINTRO##
+600
+1
+14
+##PLAYER##
+100
+10
+5
+3 
